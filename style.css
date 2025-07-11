@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  background: #002B5B;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #FFD700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #FFD700;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('assets/kaaba.jpg') center/cover no-repeat;
+  color: white;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+.btn {
+  background-color: #FFD700;
+  color: #002B5B;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.services, .packages, .blog, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+.services {
+  background-color: #ffffff;
+}
+.services h2, .packages h2, .blog h2, .contact h2 {
+  color: #002B5B;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.service-boxes, .package-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+.box, .package-card {
+  background: #fff;
+  padding: 25px;
+  width: 270px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.box:hover, .package-card:hover {
+  transform: translateY(-5px);
+}
+.package-card h3 {
+  color: #002B5B;
+}
+.blog {
+  background-color: #fffdf4;
+}
+.blog article {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+.contact {
+  background-color: #e0f7e9;
+  text-align: center;
+  padding: 60px 20px;
+  color: #002B5B;
+}
+.contact p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.contact a.btn {
+  margin-top: 20px;
+  display: inline-block;
+}
