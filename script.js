@@ -1,1 +1,1 @@
-console.log("Million Miles Website Loaded!");
+// Optional JS can be added later
